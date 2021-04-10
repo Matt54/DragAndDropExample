@@ -11,6 +11,7 @@
 		FA31B2CE2602DF76007C2AAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31B2CD2602DF76007C2AAA /* ContentView.swift */; };
 		FA31B2D02602DF76007C2AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA31B2CF2602DF76007C2AAA /* Assets.xcassets */; };
 		FA31B2D32602DF76007C2AAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA31B2D22602DF76007C2AAA /* Preview Assets.xcassets */; };
+		FA64C79F2603A68400481D9F /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64C79E2603A68400481D9F /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FA31B2CF2602DF76007C2AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA31B2D22602DF76007C2AAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA31B2D42602DF76007C2AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64C79E2603A68400481D9F /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				FA31B2CB2602DF76007C2AAA /* DragAndDropExampleApp.swift */,
 				FA31B2CD2602DF76007C2AAA /* ContentView.swift */,
+				FA64C79E2603A68400481D9F /* ColorExtension.swift */,
 				FA31B2CF2602DF76007C2AAA /* Assets.xcassets */,
 				FA31B2D42602DF76007C2AAA /* Info.plist */,
 				FA31B2D12602DF76007C2AAA /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA64C79F2603A68400481D9F /* ColorExtension.swift in Sources */,
 				FA31B2CE2602DF76007C2AAA /* ContentView.swift in Sources */,
 				FA31B2CC2602DF76007C2AAA /* DragAndDropExampleApp.swift in Sources */,
 			);
